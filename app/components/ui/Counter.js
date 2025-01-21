@@ -1,6 +1,6 @@
 "use client";
 
-import Button from "./Button";
+import Button from "./button";
 
 const Counter = ({ counter, setCounter, max }) => {
   const increase = () => counter < max && setCounter(counter + 1);
